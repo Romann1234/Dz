@@ -6,7 +6,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         int num[];
-        num = new int[5];
+        num = new int[50];
         Random d = new Random();
 int changecounter = 0;
 int changecounter2 = 0;
@@ -37,7 +37,7 @@ int changecounter3 = 0;
         }
         System.out.println("col-vo - elementov:  "+ changecounter);
         System.out.println("col-vo + elementov:  "+ changecounter2);
-        System.out.println("col-vo - elementov:  "+ changecounter3);
+        System.out.println("col-vo 0 elementov:  "+ changecounter3);
         System.out.println("Summa + elementov: " +S );
         System.out.println("Summa - elementov: " +D );
         System.out.printf("srednee: %d  ",((S+D)/(changecounter+changecounter2)));
